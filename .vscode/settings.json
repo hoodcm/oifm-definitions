@@ -37,6 +37,12 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true
   },
+  "json.schemas": [
+    {
+      "fileMatch": ["*.fm.json"],
+      "url": "./findingmodels/schema/finding_model.schema.json"
+    }
+  ],
   "chat.mcp.serverSampling": {
     "findingmodel/.vscode/mcp.json: Context7": {
       "allowedModels": [

@@ -186,7 +186,7 @@ Run evals when:
 
 - **Writing evals**: See `evals/evals_guide.md` for comprehensive guide
 - **AI agent reference**: See `evals/CLAUDE.md` for development conventions
-- **Best practices**: See `.serena/memories/agent_evaluation_best_practices_2025.md`
+- **Best practices**: See `docs/context/agent_evaluation_best_practices_2025.md`
 
 ## Quick Links
 

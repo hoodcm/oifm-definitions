@@ -6,6 +6,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Changed
+
+- **Repository Cleanup and Consolidation** (2026-01-22):
+  - Removed `.serena/` MCP memory system; migrated 27 context files to `docs/context/`
+  - Deleted duplicate/legacy files from `findingmodels/` (.gitignore, .vscode/, LICENSE)
+  - Deleted Harrison demo content (`harrison_oifm_defs/`, Harrison JSON files)
+  - Deleted stray files (`bernardo-ai-concordance-context.md`, Excel file)
+  - Deleted legacy directories (`findingmodels/conflicts/`, `findingmodels/scripts/obsolete/`)
+  - Deleted `.python-version` (redundant with pyproject.toml)
+  - Moved Hood curated CXR findings to `findingmodels/lists/cxr_hood_curated/`
+  - Consolidated `tasks/` and `specs/` into `docs/archive/`
+  - Merged `findingmodels/.vscode/settings.json` schema config into root `.vscode/`
+  - Updated `.gitignore` to exclude generated files (oifm_registry.json, etc.)
+  - Simplified `CLAUDE.md` - removed Serena references, focused on core workflow
+
 ## [0.6.0] - 2025-11-09
 
 ### Added

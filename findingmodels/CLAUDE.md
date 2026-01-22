@@ -128,3 +128,7 @@ Finding models link to standard medical ontologies:
 - **GAMUTS**: Radiology Gamuts Ontology (gamuts.net)
 
 Index codes are specified in `index_codes` arrays with `system`, `code`, and optional `display` fields.
+
+## Related Documentation
+
+For Python library development (tools, agents, index management), see the root [CLAUDE.md](../CLAUDE.md).

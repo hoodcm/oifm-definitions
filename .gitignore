@@ -89,7 +89,6 @@ dmypy.json
 # Project-specific stuff
 notebooks/test_model.fm.json
 notebooks/data/anatomic_locations.json
-.serena/cache
 mcp.json
 .mcp.json
 
@@ -99,3 +98,8 @@ data/*.duckdb.wal
 
 # Temporary/scratch files
 tmp/
+
+# Generated index/registry files
+oifm_registry.json
+oifm_name_lookup.json
+PROJECT_INDEX.json

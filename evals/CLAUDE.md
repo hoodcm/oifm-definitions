@@ -4,11 +4,11 @@ This is a lightweight pointer for AI agents. For complete guidance, see the auth
 
 ## Purpose
 
-Quick reference for AI agents developing evaluation suites. All detailed patterns, templates, and conventions are in `.serena/memories/agent_evaluation_best_practices_2025.md`.
+Quick reference for AI agents developing evaluation suites. All detailed patterns, templates, and conventions are in `docs/context/agent_evaluation_best_practices_2025.md`.
 
 ## Documentation Map
 
-- **`.serena/memories/agent_evaluation_best_practices_2025.md`** - Authoritative reference for AI agents (complete patterns, templates, conventions)
+- **`docs/context/agent_evaluation_best_practices_2025.md`** - Authoritative reference for AI agents (complete patterns, templates, conventions)
 - **`evals/evals_guide.md`** - Comprehensive tutorial for humans learning to write evals
 - **`evals/README.md`** - Quick-start guide for humans running evals
 - **`evals/model_editor.py`** - Working example implementation
@@ -49,4 +49,4 @@ TestModel(custom_output_args=my_model)
 
 For detailed patterns, templates, file structure, conventions, anti-patterns, and lessons learned, see:
 
-**`.serena/memories/agent_evaluation_best_practices_2025.md`**
+**`docs/context/agent_evaluation_best_practices_2025.md`**
