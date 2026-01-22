@@ -1,0 +1,197 @@
+{
+  "oifm_id": "OIFM_MGB_838868",
+  "name": "tracheal calcification",
+  "description": "Tracheal calcification - a chest wall or mediastinal finding observed on chest X-ray.",
+  "tags": [
+    "chest_walls",
+    "cxr",
+    "harrison_ai"
+  ],
+  "attributes": [
+    {
+      "oifma_id": "OIFMA_MGB_759605",
+      "name": "presence",
+      "description": "Whether the finding is present on the imaging study",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_759605.0",
+          "name": "absent",
+          "description": "Finding is not present"
+        },
+        {
+          "value_code": "OIFMA_MGB_759605.1",
+          "name": "present",
+          "description": "Finding is present"
+        },
+        {
+          "value_code": "OIFMA_MGB_759605.2",
+          "name": "indeterminate",
+          "description": "Cannot determine if finding is present"
+        }
+      ],
+      "required": true,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_141814",
+      "name": "change from prior",
+      "description": "Change in the finding compared to prior imaging",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_141814.0",
+          "name": "new",
+          "description": "Finding is new since prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_141814.1",
+          "name": "unchanged",
+          "description": "Finding is unchanged from prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_141814.2",
+          "name": "increased",
+          "description": "Finding has increased since prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_141814.3",
+          "name": "decreased",
+          "description": "Finding has decreased since prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_141814.4",
+          "name": "resolved",
+          "description": "Finding has resolved since prior study"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_396658",
+      "name": "temporality",
+      "description": "Timing or onset of the finding relative to clinical context",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_396658.0",
+          "name": "acute",
+          "description": "Recent onset, typically hours to days"
+        },
+        {
+          "value_code": "OIFMA_MGB_396658.1",
+          "name": "subacute",
+          "description": "Intermediate duration, typically days to weeks"
+        },
+        {
+          "value_code": "OIFMA_MGB_396658.2",
+          "name": "chronic",
+          "description": "Long-standing, typically weeks to months or longer"
+        },
+        {
+          "value_code": "OIFMA_MGB_396658.3",
+          "name": "indeterminate",
+          "description": "Timing cannot be determined from imaging"
+        },
+        {
+          "value_code": "OIFMA_MGB_396658.4",
+          "name": "not applicable",
+          "description": "Temporality not relevant for this finding"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_531474",
+      "name": "stability",
+      "description": "Stability status of the finding over time",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_531474.0",
+          "name": "stable",
+          "description": "Finding has remained unchanged"
+        },
+        {
+          "value_code": "OIFMA_MGB_531474.1",
+          "name": "improving",
+          "description": "Finding is getting better"
+        },
+        {
+          "value_code": "OIFMA_MGB_531474.2",
+          "name": "worsening",
+          "description": "Finding is getting worse"
+        },
+        {
+          "value_code": "OIFMA_MGB_531474.3",
+          "name": "indeterminate",
+          "description": "Stability cannot be determined"
+        },
+        {
+          "value_code": "OIFMA_MGB_531474.4",
+          "name": "not applicable",
+          "description": "No prior study for comparison"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_873219",
+      "name": "criticality",
+      "description": "Clinical urgency or importance of the finding",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_873219.0",
+          "name": "critical",
+          "description": "Requires immediate attention or action"
+        },
+        {
+          "value_code": "OIFMA_MGB_873219.1",
+          "name": "urgent",
+          "description": "Requires attention within hours"
+        },
+        {
+          "value_code": "OIFMA_MGB_873219.2",
+          "name": "routine",
+          "description": "Requires standard follow-up"
+        },
+        {
+          "value_code": "OIFMA_MGB_873219.3",
+          "name": "incidental",
+          "description": "Noted but no specific action required"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_519993",
+      "name": "actionable",
+      "description": "Whether the finding requires clinical action or follow-up",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_519993.0",
+          "name": "actionable",
+          "description": "Finding requires specific clinical action"
+        },
+        {
+          "value_code": "OIFMA_MGB_519993.1",
+          "name": "potentially actionable",
+          "description": "May require action depending on clinical context"
+        },
+        {
+          "value_code": "OIFMA_MGB_519993.2",
+          "name": "non-actionable",
+          "description": "No specific action required"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    }
+  ]
+}

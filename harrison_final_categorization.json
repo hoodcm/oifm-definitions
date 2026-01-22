@@ -1,0 +1,1172 @@
+{
+  "matched": [
+    {
+      "harrison_finding": "enlarged liver",
+      "category": "Abdomen",
+      "oifm_id": "OIFM_GMTS_001845",
+      "oifm_name": "hepatomegaly",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "enlarged spleen",
+      "category": "Abdomen",
+      "oifm_id": "OIFM_GMTS_003565",
+      "oifm_name": "splenomegaly",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "gallstones",
+      "category": "Abdomen",
+      "oifm_id": "OIFM_GMTS_022482",
+      "oifm_name": "gallstone",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "liver calcification",
+      "category": "Abdomen",
+      "oifm_id": "OIFM_GMTS_022452",
+      "oifm_name": "hepatic calcification",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "pneumobilia",
+      "category": "Abdomen",
+      "oifm_id": "OIFM_GMTS_005685",
+      "oifm_name": "gas in gallbladder or biliary tract",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "cervical rib",
+      "category": "Bones",
+      "oifm_id": "OIFM_CDE_000101",
+      "oifm_name": "Cervical Rib",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "clavicle fracture",
+      "category": "Bones",
+      "oifm_id": "OIFM_OIDM_842151",
+      "oifm_name": "clavicle fracture",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "diffuse idiopathic skeletal hyperostosis",
+      "category": "Bones",
+      "oifm_id": "OIFM_OIDM_990401",
+      "oifm_name": "diffuse idiopathic skeletal hyperostosis",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "humerus fracture",
+      "category": "Bones",
+      "oifm_id": "OIFM_CDE_000232",
+      "oifm_name": "Humerus Fracture",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "osteopenia",
+      "category": "Bones",
+      "oifm_id": "OIFM_GMTS_010762",
+      "oifm_name": "generalized osteoporosis",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "rib fracture",
+      "category": "Bones",
+      "oifm_id": "OIFM_MGB_944849",
+      "oifm_name": "Rib Fracture",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "rib notching",
+      "category": "Bones",
+      "oifm_id": "OIFM_GMTS_025726",
+      "oifm_name": "rib notching",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "scoliosis",
+      "category": "Bones",
+      "oifm_id": "OIFM_CDE_000051",
+      "oifm_name": "Scoliosis",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "breast implant",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_MGB_654936",
+      "oifm_name": "Breast Implant",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "cardiomegaly",
+      "category": "Chest walls",
+      "oifm_id": "OIFM_GMTS_022537",
+      "oifm_name": "cardiomegaly",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "dextrocardia",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_GMTS_013596",
+      "oifm_name": "dextrocardia",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "emphysema",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_CDE_000286",
+      "oifm_name": "Emphysema",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "mastectomy",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_MGB_089921",
+      "oifm_name": "Mastectomy",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "mediastinal shift",
+      "category": "Chest walls",
+      "oifm_id": "OIFM_GMTS_015800",
+      "oifm_name": "mediastinal shift",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "mitral annular calcification",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_OIDM_159498",
+      "oifm_name": "mitral annular calcification",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "pectus carinatum",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_GMTS_012667",
+      "oifm_name": "pectus carinatum",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "pectus excavatum",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_GMTS_012672",
+      "oifm_name": "pectus excavatum",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "pericardial calcification",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_GMTS_013823",
+      "oifm_name": "pericardial calcification",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "pneumomediastinum",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_GMTS_023340",
+      "oifm_name": "pneumomediastinum",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "pneumopericardium",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_GMTS_013851",
+      "oifm_name": "pneumopericardium",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "pulmonary artery enlargement",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_GMTS_013910",
+      "oifm_name": "large main pulmonary artery",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "tracheal mass",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_GMTS_015377",
+      "oifm_name": "pedunculated intratracheal mass",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "tracheomegaly",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_GMTS_015383",
+      "oifm_name": "large trachea",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "coronary stent",
+      "category": "Lines, Tubes, Devices",
+      "oifm_id": "OIFM_MGB_177589",
+      "oifm_name": "Coronary Stent",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "loop recorder",
+      "category": "Lines, Tubes, Devices",
+      "oifm_id": "OIFM_MGB_093164",
+      "oifm_name": "Loop Recorder",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "pfo closure device",
+      "category": "Lines, Tubes, Devices",
+      "oifm_id": "OIFM_MGB_626908",
+      "oifm_name": "Pfo Closure Device",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "tracheostomy tube",
+      "category": "Lines, Tubes, Devices",
+      "oifm_id": "OIFM_MGB_132320",
+      "oifm_name": "Tracheostomy Tube",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "bronchiectasis",
+      "category": "Lungs",
+      "oifm_id": "OIFM_GMTS_013943",
+      "oifm_name": "bronchiectasis",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "hilar lymphadenopathy",
+      "category": "Lungs",
+      "oifm_id": "OIFM_GMTS_015734",
+      "oifm_name": "mediastinal and/or hilar lymph node enlargement",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "pneumonia",
+      "category": "Lungs",
+      "oifm_id": "OIFM_CDE_000076",
+      "oifm_name": "Pneumonia",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "pulmonary edema",
+      "category": "Lungs",
+      "oifm_id": "OIFM_GMTS_014286",
+      "oifm_name": "pulmonary edema",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "wedge resection",
+      "category": "Lungs",
+      "oifm_id": "OIFM_MGB_893730",
+      "oifm_name": "Wedge Resection",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "pleural mass",
+      "category": "Pleura",
+      "oifm_id": "OIFM_GMTS_016030",
+      "oifm_name": "pleural mass",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "pleural thickening",
+      "category": "Pleura",
+      "oifm_id": "OIFM_GMTS_015999",
+      "oifm_name": "pleural thickening",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "pneumothorax",
+      "category": "Pleura",
+      "oifm_id": "OIFM_GMTS_023339",
+      "oifm_name": "pneumothorax",
+      "match_type": "exact"
+    },
+    {
+      "harrison_finding": "spleen calcifiation",
+      "category": "Abdomen",
+      "oifm_id": "OIFM_GMTS_022455",
+      "oifm_name": "splenic calcification",
+      "matched_name": "splenic calcification",
+      "score": 0.9,
+      "match_type": "fuzzy"
+    },
+    {
+      "harrison_finding": "pulmonary embolus",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_MSFT_932618",
+      "oifm_name": "pulmonary embolism",
+      "matched_name": "pulmonary embolism",
+      "score": 0.914,
+      "match_type": "fuzzy"
+    },
+    {
+      "harrison_finding": "pulmonary embolus",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_MSFT_932618",
+      "oifm_name": "pulmonary embolism",
+      "matched_name": "pulmonary embolism",
+      "score": 0.914,
+      "match_type": "fuzzy"
+    },
+    {
+      "harrison_finding": "pulmonary embolus",
+      "category": "Chest Walls",
+      "oifm_id": "OIFM_MSFT_932618",
+      "oifm_name": "pulmonary embolism",
+      "matched_name": "pulmonary embolism",
+      "score": 0.914,
+      "match_type": "fuzzy"
+    },
+    {
+      "harrison_finding": "peripherally inserted central catheter",
+      "category": "Lines, Tubes, Devices",
+      "oifm_id": "OIFM_MGB_820557",
+      "oifm_name": "Peripherally Inserted Central Catheter (Picc)",
+      "matched_name": "peripherally inserted central catheter (picc)",
+      "score": 0.927,
+      "match_type": "fuzzy"
+    },
+    {
+      "harrison_finding": "left ventricular assist device (lvad)",
+      "category": "Lines, Tubes, Devices",
+      "oifm_id": "OIFM_MGB_040444",
+      "oifm_name": "Left Ventricular Assist Device Lvad",
+      "matched_name": "left ventricular assist device lvad",
+      "score": 0.986,
+      "match_type": "fuzzy"
+    },
+    {
+      "harrison_finding": "calcified granuloma ( < 5mm)",
+      "category": "Lungs",
+      "oifm_id": "OIFM_MGB_314652",
+      "oifm_name": "Calcified Granuloma",
+      "matched_name": "calcified granuloma",
+      "score": 0.884,
+      "match_type": "fuzzy"
+    },
+    {
+      "harrison_finding": "pleura effusion",
+      "category": "Pleura",
+      "oifm_id": "OIFM_CDE_000254",
+      "oifm_name": "Pleural Effusion",
+      "matched_name": "pleural effusion",
+      "score": 0.968,
+      "match_type": "fuzzy"
+    }
+  ],
+  "needs_creation": [
+    {
+      "finding": "abdominal clips",
+      "category": "Abdomen"
+    },
+    {
+      "finding": "rib lesion",
+      "category": "Bones"
+    },
+    {
+      "finding": "scapula fracture",
+      "category": "Bones"
+    },
+    {
+      "finding": "scapular lesion",
+      "category": "Bones"
+    },
+    {
+      "finding": "sclerotic rib lesion",
+      "category": "Bones"
+    },
+    {
+      "finding": "spine lesion",
+      "category": "Bones"
+    },
+    {
+      "finding": "sternal suture",
+      "category": "Bones"
+    },
+    {
+      "finding": "aortic calcification",
+      "category": "Chest walls"
+    },
+    {
+      "finding": "eventrated hemidiaphragm",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "mediastinal drain",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "mediastinal mass/nodes",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "raised hemidiaphragm",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "tracheal calcification",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "tracheal deviation",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "tracheal diverticulum",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "aortic aneurysm repair",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "cardiac valve replacement",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "mediastinal drain",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "cavitation lesion",
+      "category": "Lungs"
+    },
+    {
+      "finding": "fissural thickening",
+      "category": "Lungs"
+    },
+    {
+      "finding": "hyperinflation",
+      "category": "Lungs"
+    },
+    {
+      "finding": "biliary stent",
+      "category": "Abdomen"
+    },
+    {
+      "finding": "cholecystectomy clips",
+      "category": "Abdomen"
+    },
+    {
+      "finding": "distended bowel",
+      "category": "Abdomen"
+    },
+    {
+      "finding": "distended stomach",
+      "category": "Abdomen"
+    },
+    {
+      "finding": "free abdominal gas",
+      "category": "Abdomen"
+    },
+    {
+      "finding": "kidney stone",
+      "category": "Abdomen"
+    },
+    {
+      "finding": "pneumatosis",
+      "category": "Abdomen"
+    },
+    {
+      "finding": "ameila or phocomelia",
+      "category": "Bones"
+    },
+    {
+      "finding": "bifid ribs",
+      "category": "Bones"
+    },
+    {
+      "finding": "bone lesion",
+      "category": "Bones"
+    },
+    {
+      "finding": "bridging (fused) rib",
+      "category": "Bones"
+    },
+    {
+      "finding": "clamshell sutures",
+      "category": "Bones"
+    },
+    {
+      "finding": "clavicle lesion",
+      "category": "Bones"
+    },
+    {
+      "finding": "compression deformity",
+      "category": "Bones"
+    },
+    {
+      "finding": "costal fusion",
+      "category": "Bones"
+    },
+    {
+      "finding": "diffuse spinal osteophytes",
+      "category": "Bones"
+    },
+    {
+      "finding": "fibro-osseous lesion",
+      "category": "Bones"
+    },
+    {
+      "finding": "hemivertebra",
+      "category": "Bones"
+    },
+    {
+      "finding": "humeral lesion",
+      "category": "Bones"
+    },
+    {
+      "finding": "intrathoracic rib",
+      "category": "Bones"
+    },
+    {
+      "finding": "lytic/destructive rib lesion",
+      "category": "Bones"
+    },
+    {
+      "finding": "mal-union",
+      "category": "Bones"
+    },
+    {
+      "finding": "non-union",
+      "category": "Bones"
+    },
+    {
+      "finding": "rib fixation",
+      "category": "Bones"
+    },
+    {
+      "finding": "rib resection",
+      "category": "Bones"
+    },
+    {
+      "finding": "rosary ribs (scurvy or rickets-related)",
+      "category": "Bones"
+    },
+    {
+      "finding": "shoulder arthritis",
+      "category": "Bones"
+    },
+    {
+      "finding": "shoulder fixation",
+      "category": "Bones"
+    },
+    {
+      "finding": "shoulder replacement",
+      "category": "Bones"
+    },
+    {
+      "finding": "significant spinal degeneration",
+      "category": "Bones"
+    },
+    {
+      "finding": "spinal wedge/compression fracture",
+      "category": "Bones"
+    },
+    {
+      "finding": "stabilization rods",
+      "category": "Bones"
+    },
+    {
+      "finding": "upper limb amputation",
+      "category": "Bones"
+    },
+    {
+      "finding": "vanishing ribs (osteolysis)",
+      "category": "Bones"
+    },
+    {
+      "finding": "acute cardiomediastinal abnormality",
+      "category": "Chest walls"
+    },
+    {
+      "finding": "aorta - dilated contour / dissection / rupture",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "aorta - tortuous",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "aorta - unfolded/ ectatic",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "atherosclerotic calcification",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "axillary clips",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "breast clips",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "calcificed breast implants",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "calcified axillary nodes",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "calcified neck nodes",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "cardiac arrest/changes of cardiopulmonary resuscitation",
+      "category": "Chest walls"
+    },
+    {
+      "finding": "cardiac chamber enlargement (left atrium)",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "cardiac silhouette",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "cardiac transplant",
+      "category": "Chest walls"
+    },
+    {
+      "finding": "chest wall drain",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "elevated or malpositioned scapula (sprengel deformity)",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "esophagectomy and gastric pull-up",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "exaggerated kyphosis",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "expected post-surgical changes",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "foreign body with potential immediate and/or severe consequences",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "heart",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "large pericardial effusion and/or suspected tamponade of any cause",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "mediastinal/hilar clips",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "metallic markers",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "neck clips",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "non-surgical internal foreign",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "open chest",
+      "category": "Chest walls"
+    },
+    {
+      "finding": "pericadial effusion/hemopericardium",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "pericardial fat pad",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "retained surgical instruments, sponges, devices",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "significant superior vena cava compression or narrowing",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "superior vena cava occlusion (including svc syndrome)",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "thyroid bed clips",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "tracheal obstruction or impending obstruction",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "tracheal stenosis or narrowing",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "widened cardiopericardial silhouette",
+      "category": "Chest Walls"
+    },
+    {
+      "finding": "endovascular aortic repair",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "enteric tube",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "gastrostomy tube",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "intravascular line",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "port catheter",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "spinal catheter",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "surgical clips",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "anterior cervical fusion device",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "aortic stent",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "cardiac patch monitor",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "central venous catheter",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "chest tube",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "chest wall drain",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "clamshell sternotomy wires",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "clavicle fixation",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "double balloon esophageal catheter",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "ecmo catheter (venovenous or venoarterial)",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "epicardial pacing wires",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "epidural catheter",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "esophageal tamponade tube (sengstaken-blackmore or minnesota tube)",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "esophagectomy and gastric pull-up",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "gastric band",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "impella device",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "implantable cardioverter defibrillator (icd)",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "implantable cardioverter defibrillator (icd) leads",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "inferior vena cava (ivc) filter",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "intercostal drain",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "intra-aortic balloon pump catheter",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "intracardiac leadless pacemaker",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "intravascular line in suboptimal location, moderate risk (eg, intended central line in jugular or azygous vein, right atrium)",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "lung suntures",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "mediastinal/hilar clips",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "mitral annuloplasty",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "nasogastric tube",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "nuss bar",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "pacemaker",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "pacer lids",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "pericardial drain",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "rib cerclage wires",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "rotator cuff anchor",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "shoulder fixation",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "shoulder replacement",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "spinal fixation",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "spinal fusion",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "subclavian stent",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "superior vena cava (SVC) stent",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "termporary pacer wire",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "transarterial aortic valve replacement (tavr/tavi)",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "ventricular shunt",
+      "category": "Lines, Tubes, Devices"
+    },
+    {
+      "finding": "aspiration",
+      "category": "Lungs"
+    },
+    {
+      "finding": "azygos lobe",
+      "category": "Lungs"
+    },
+    {
+      "finding": "bronchial wall thickening/cuffing",
+      "category": "Lungs"
+    },
+    {
+      "finding": "bullous disease",
+      "category": "Lungs"
+    },
+    {
+      "finding": "calcified nodule (> 5mm)",
+      "category": "Lungs"
+    },
+    {
+      "finding": "diffuse nodular / miliary lesions",
+      "category": "Lungs"
+    },
+    {
+      "finding": "emphysematous changes ",
+      "category": "Lungs"
+    },
+    {
+      "finding": "finding highly suggestive of malignancy",
+      "category": "Lungs"
+    },
+    {
+      "finding": "improved lung volume",
+      "category": "Lungs"
+    },
+    {
+      "finding": "interstitial thickening",
+      "category": "Lungs"
+    },
+    {
+      "finding": "lobar or lung collapse",
+      "category": "Lungs"
+    },
+    {
+      "finding": "low lung volume",
+      "category": "Lungs"
+    },
+    {
+      "finding": "lung lesion with high possibility of being active tb",
+      "category": "Lungs"
+    },
+    {
+      "finding": "lung transplant",
+      "category": "Lungs"
+    },
+    {
+      "finding": "multiple well-defined masses of nodules",
+      "category": "Lungs"
+    },
+    {
+      "finding": "nipple shadow",
+      "category": "Lungs"
+    },
+    {
+      "finding": "post resection volume loss",
+      "category": "Lungs"
+    },
+    {
+      "finding": "prominent bronchovascular markings",
+      "category": "Lungs"
+    },
+    {
+      "finding": "pulmonary hemorrhage",
+      "category": "Lungs"
+    },
+    {
+      "finding": "pulmonary venous congestion",
+      "category": "Lungs"
+    },
+    {
+      "finding": "reduced lung markings",
+      "category": "Lungs"
+    },
+    {
+      "finding": "scarring",
+      "category": "Lungs"
+    },
+    {
+      "finding": "blunting",
+      "category": "Pleura"
+    },
+    {
+      "finding": "hydrthorax/hepatic hydrothorax",
+      "category": "Pleura"
+    },
+    {
+      "finding": "pleural scarring",
+      "category": "Pleura"
+    },
+    {
+      "finding": "lungs incompletely imaged",
+      "category": "Technical Factors"
+    },
+    {
+      "finding": "obscured by chin",
+      "category": "Technical Factors"
+    },
+    {
+      "finding": "obscured by object",
+      "category": "Technical Factors"
+    },
+    {
+      "finding": "overexposed",
+      "category": "Technical Factors"
+    },
+    {
+      "finding": "patient rotated",
+      "category": "Technical Factors"
+    },
+    {
+      "finding": "underexposed",
+      "category": "Technical Factors"
+    },
+    {
+      "finding": "underinflation",
+      "category": "Technical Factors"
+    },
+    {
+      "finding": "moderate pericardial effusion",
+      "category": "Chest Walls",
+      "previous_match": "OIFM_GMTS_003706",
+      "match_type": "fuzzy"
+    },
+    {
+      "finding": "pulmonary arterial catheter",
+      "category": "Lines, Tubes, Devices",
+      "previous_match": "OIFM_GMTS_030927",
+      "match_type": "fuzzy"
+    },
+    {
+      "finding": "cavitating mass(es)",
+      "category": "Lungs",
+      "previous_match": "OIFM_CDE_000263",
+      "match_type": "fuzzy"
+    },
+    {
+      "finding": "consolidation",
+      "category": "Lungs",
+      "previous_match": "OIFM_GMTS_033499",
+      "match_type": "fuzzy"
+    },
+    {
+      "finding": "degenerative change",
+      "category": "Bones",
+      "previous_match": "OIFM_GMTS_025663",
+      "match_type": "manual"
+    },
+    {
+      "finding": "shoulder dislocation",
+      "category": "Bones",
+      "previous_match": "OIFM_CDE_000229",
+      "match_type": "manual"
+    },
+    {
+      "finding": "hiatus hernia",
+      "category": "Abdomen",
+      "previous_match": "OIFM_GMTS_022456",
+      "match_type": "manual"
+    },
+    {
+      "finding": "thoracic kyphosis",
+      "category": "Bones",
+      "previous_match": "OIFM_GMTS_009593",
+      "match_type": "manual"
+    },
+    {
+      "finding": "hiatial hernia",
+      "category": "Chest Walls",
+      "previous_match": "OIFM_GMTS_022456",
+      "match_type": "manual"
+    },
+    {
+      "finding": "airway stent",
+      "category": "Lines, Tubes, Devices",
+      "previous_match": "OIFM_MGB_692734",
+      "match_type": "manual"
+    },
+    {
+      "finding": "endotracheal tube",
+      "category": "Lines, Tubes, Devices",
+      "previous_match": "OIFM_CDE_000179",
+      "match_type": "manual"
+    },
+    {
+      "finding": "air space opacity",
+      "category": "Lungs",
+      "previous_match": "OIFM_GMTS_014370",
+      "match_type": "manual"
+    },
+    {
+      "finding": "atelectasis",
+      "category": "Lungs",
+      "previous_match": "OIFM_GMTS_032553",
+      "match_type": "manual"
+    },
+    {
+      "finding": "fibrosis",
+      "category": "Lungs",
+      "previous_match": "OIFM_GMTS_014491",
+      "match_type": "manual"
+    },
+    {
+      "finding": "lung nodule or suspected lung nodule, not clearly benign",
+      "category": "Lungs",
+      "previous_match": "OIFM_CDE_000195",
+      "match_type": "manual"
+    },
+    {
+      "finding": "mass",
+      "category": "Lungs",
+      "previous_match": "OIFM_GMTS_014134",
+      "match_type": "manual"
+    },
+    {
+      "finding": "opacity",
+      "category": "Lungs",
+      "previous_match": "OIFM_GMTS_014547",
+      "match_type": "manual"
+    },
+    {
+      "finding": "pulmonary contusions",
+      "category": "Lungs",
+      "previous_match": "OIFM_GMTS_033500",
+      "match_type": "manual"
+    },
+    {
+      "finding": "calcified pleural plaques",
+      "category": "Pleura",
+      "previous_match": "OIFM_GMTS_015999",
+      "match_type": "manual"
+    },
+    {
+      "finding": "loculated effusion",
+      "category": "Pleura",
+      "previous_match": "OIFM_CDE_000254",
+      "match_type": "manual"
+    },
+    {
+      "finding": "moderate or large pleural effusion",
+      "category": "Pleura",
+      "previous_match": "OIFM_GMTS_015972",
+      "match_type": "manual"
+    }
+  ]
+}

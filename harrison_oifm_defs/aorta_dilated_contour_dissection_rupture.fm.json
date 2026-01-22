@@ -1,0 +1,222 @@
+{
+  "oifm_id": "OIFM_MGB_473833",
+  "name": "aorta - dilated contour / dissection / rupture",
+  "description": "Aorta - dilated contour / dissection / rupture - a chest wall or mediastinal finding observed on chest X-ray.",
+  "tags": [
+    "chest_walls",
+    "cxr",
+    "harrison_ai"
+  ],
+  "attributes": [
+    {
+      "oifma_id": "OIFMA_MGB_638792",
+      "name": "presence",
+      "description": "Whether the finding is present on the imaging study",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_638792.0",
+          "name": "absent",
+          "description": "Finding is not present"
+        },
+        {
+          "value_code": "OIFMA_MGB_638792.1",
+          "name": "present",
+          "description": "Finding is present"
+        },
+        {
+          "value_code": "OIFMA_MGB_638792.2",
+          "name": "indeterminate",
+          "description": "Cannot determine if finding is present"
+        }
+      ],
+      "required": true,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_011360",
+      "name": "change from prior",
+      "description": "Change in the finding compared to prior imaging",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_011360.0",
+          "name": "new",
+          "description": "Finding is new since prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_011360.1",
+          "name": "unchanged",
+          "description": "Finding is unchanged from prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_011360.2",
+          "name": "increased",
+          "description": "Finding has increased since prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_011360.3",
+          "name": "decreased",
+          "description": "Finding has decreased since prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_011360.4",
+          "name": "resolved",
+          "description": "Finding has resolved since prior study"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_501456",
+      "name": "severity",
+      "description": "Severity or degree of the finding",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_501456.0",
+          "name": "mild",
+          "description": "Mild degree"
+        },
+        {
+          "value_code": "OIFMA_MGB_501456.1",
+          "name": "moderate",
+          "description": "Moderate degree"
+        },
+        {
+          "value_code": "OIFMA_MGB_501456.2",
+          "name": "severe",
+          "description": "Severe degree"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_706421",
+      "name": "temporality",
+      "description": "Timing or onset of the finding relative to clinical context",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_706421.0",
+          "name": "acute",
+          "description": "Recent onset, typically hours to days"
+        },
+        {
+          "value_code": "OIFMA_MGB_706421.1",
+          "name": "subacute",
+          "description": "Intermediate duration, typically days to weeks"
+        },
+        {
+          "value_code": "OIFMA_MGB_706421.2",
+          "name": "chronic",
+          "description": "Long-standing, typically weeks to months or longer"
+        },
+        {
+          "value_code": "OIFMA_MGB_706421.3",
+          "name": "indeterminate",
+          "description": "Timing cannot be determined from imaging"
+        },
+        {
+          "value_code": "OIFMA_MGB_706421.4",
+          "name": "not applicable",
+          "description": "Temporality not relevant for this finding"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_004458",
+      "name": "stability",
+      "description": "Stability status of the finding over time",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_004458.0",
+          "name": "stable",
+          "description": "Finding has remained unchanged"
+        },
+        {
+          "value_code": "OIFMA_MGB_004458.1",
+          "name": "improving",
+          "description": "Finding is getting better"
+        },
+        {
+          "value_code": "OIFMA_MGB_004458.2",
+          "name": "worsening",
+          "description": "Finding is getting worse"
+        },
+        {
+          "value_code": "OIFMA_MGB_004458.3",
+          "name": "indeterminate",
+          "description": "Stability cannot be determined"
+        },
+        {
+          "value_code": "OIFMA_MGB_004458.4",
+          "name": "not applicable",
+          "description": "No prior study for comparison"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_051371",
+      "name": "criticality",
+      "description": "Clinical urgency or importance of the finding",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_051371.0",
+          "name": "critical",
+          "description": "Requires immediate attention or action"
+        },
+        {
+          "value_code": "OIFMA_MGB_051371.1",
+          "name": "urgent",
+          "description": "Requires attention within hours"
+        },
+        {
+          "value_code": "OIFMA_MGB_051371.2",
+          "name": "routine",
+          "description": "Requires standard follow-up"
+        },
+        {
+          "value_code": "OIFMA_MGB_051371.3",
+          "name": "incidental",
+          "description": "Noted but no specific action required"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_088656",
+      "name": "actionable",
+      "description": "Whether the finding requires clinical action or follow-up",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_088656.0",
+          "name": "actionable",
+          "description": "Finding requires specific clinical action"
+        },
+        {
+          "value_code": "OIFMA_MGB_088656.1",
+          "name": "potentially actionable",
+          "description": "May require action depending on clinical context"
+        },
+        {
+          "value_code": "OIFMA_MGB_088656.2",
+          "name": "non-actionable",
+          "description": "No specific action required"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    }
+  ]
+}

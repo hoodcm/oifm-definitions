@@ -1,0 +1,265 @@
+{
+  "oifm_id": "OIFM_MGB_920771",
+  "name": "pulmonary arterial catheter",
+  "description": "Pulmonary arterial catheter - a support device finding observed on chest X-ray.",
+  "tags": [
+    "lines,_tubes,_devices",
+    "cxr",
+    "harrison_ai"
+  ],
+  "attributes": [
+    {
+      "oifma_id": "OIFMA_MGB_392402",
+      "name": "presence",
+      "description": "Whether the finding is present on the imaging study",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_392402.0",
+          "name": "absent",
+          "description": "Finding is not present"
+        },
+        {
+          "value_code": "OIFMA_MGB_392402.1",
+          "name": "present",
+          "description": "Finding is present"
+        },
+        {
+          "value_code": "OIFMA_MGB_392402.2",
+          "name": "indeterminate",
+          "description": "Cannot determine if finding is present"
+        }
+      ],
+      "required": true,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_117457",
+      "name": "change from prior",
+      "description": "Change in the finding compared to prior imaging",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_117457.0",
+          "name": "new",
+          "description": "Finding is new since prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_117457.1",
+          "name": "unchanged",
+          "description": "Finding is unchanged from prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_117457.2",
+          "name": "increased",
+          "description": "Finding has increased since prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_117457.3",
+          "name": "decreased",
+          "description": "Finding has decreased since prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_117457.4",
+          "name": "resolved",
+          "description": "Finding has resolved since prior study"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_338098",
+      "name": "position",
+      "description": "Position status of the device or tube",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_338098.0",
+          "name": "in position",
+          "description": "Device is in expected/correct position"
+        },
+        {
+          "value_code": "OIFMA_MGB_338098.1",
+          "name": "suboptimal",
+          "description": "Device position is suboptimal but functional"
+        },
+        {
+          "value_code": "OIFMA_MGB_338098.2",
+          "name": "malpositioned",
+          "description": "Device is malpositioned and may require adjustment"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_949693",
+      "name": "laterality",
+      "description": "Side of the body where the finding is located",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_949693.0",
+          "name": "left",
+          "description": "Left side"
+        },
+        {
+          "value_code": "OIFMA_MGB_949693.1",
+          "name": "right",
+          "description": "Right side"
+        },
+        {
+          "value_code": "OIFMA_MGB_949693.2",
+          "name": "bilateral",
+          "description": "Both sides"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_615035",
+      "name": "temporality",
+      "description": "Timing or onset of the finding relative to clinical context",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_615035.0",
+          "name": "acute",
+          "description": "Recent onset, typically hours to days"
+        },
+        {
+          "value_code": "OIFMA_MGB_615035.1",
+          "name": "subacute",
+          "description": "Intermediate duration, typically days to weeks"
+        },
+        {
+          "value_code": "OIFMA_MGB_615035.2",
+          "name": "chronic",
+          "description": "Long-standing, typically weeks to months or longer"
+        },
+        {
+          "value_code": "OIFMA_MGB_615035.3",
+          "name": "indeterminate",
+          "description": "Timing cannot be determined from imaging"
+        },
+        {
+          "value_code": "OIFMA_MGB_615035.4",
+          "name": "not applicable",
+          "description": "Temporality not relevant for this finding"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_676941",
+      "name": "stability",
+      "description": "Stability status of the finding over time",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_676941.0",
+          "name": "stable",
+          "description": "Finding has remained unchanged"
+        },
+        {
+          "value_code": "OIFMA_MGB_676941.1",
+          "name": "improving",
+          "description": "Finding is getting better"
+        },
+        {
+          "value_code": "OIFMA_MGB_676941.2",
+          "name": "worsening",
+          "description": "Finding is getting worse"
+        },
+        {
+          "value_code": "OIFMA_MGB_676941.3",
+          "name": "indeterminate",
+          "description": "Stability cannot be determined"
+        },
+        {
+          "value_code": "OIFMA_MGB_676941.4",
+          "name": "not applicable",
+          "description": "No prior study for comparison"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_633947",
+      "name": "criticality",
+      "description": "Clinical urgency or importance of the finding",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_633947.0",
+          "name": "critical",
+          "description": "Requires immediate attention or action"
+        },
+        {
+          "value_code": "OIFMA_MGB_633947.1",
+          "name": "urgent",
+          "description": "Requires attention within hours"
+        },
+        {
+          "value_code": "OIFMA_MGB_633947.2",
+          "name": "routine",
+          "description": "Requires standard follow-up"
+        },
+        {
+          "value_code": "OIFMA_MGB_633947.3",
+          "name": "incidental",
+          "description": "Noted but no specific action required"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_337552",
+      "name": "actionable",
+      "description": "Whether the finding requires clinical action or follow-up",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_337552.0",
+          "name": "actionable",
+          "description": "Finding requires specific clinical action"
+        },
+        {
+          "value_code": "OIFMA_MGB_337552.1",
+          "name": "potentially actionable",
+          "description": "May require action depending on clinical context"
+        },
+        {
+          "value_code": "OIFMA_MGB_337552.2",
+          "name": "non-actionable",
+          "description": "No specific action required"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_333434",
+      "name": "characteristics",
+      "description": "Specific characteristics of pulmonary arterial catheter",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_333434.0",
+          "name": "in position"
+        },
+        {
+          "value_code": "OIFMA_MGB_333434.1",
+          "name": "suboptimal"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    }
+  ]
+}

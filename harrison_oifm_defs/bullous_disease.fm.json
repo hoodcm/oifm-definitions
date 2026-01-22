@@ -1,0 +1,258 @@
+{
+  "oifm_id": "OIFM_MGB_146363",
+  "name": "bullous disease",
+  "description": "Bullous disease - a pulmonary finding observed on chest X-ray.",
+  "tags": [
+    "lungs",
+    "cxr",
+    "harrison_ai"
+  ],
+  "attributes": [
+    {
+      "oifma_id": "OIFMA_MGB_069498",
+      "name": "presence",
+      "description": "Whether the finding is present on the imaging study",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_069498.0",
+          "name": "absent",
+          "description": "Finding is not present"
+        },
+        {
+          "value_code": "OIFMA_MGB_069498.1",
+          "name": "present",
+          "description": "Finding is present"
+        },
+        {
+          "value_code": "OIFMA_MGB_069498.2",
+          "name": "indeterminate",
+          "description": "Cannot determine if finding is present"
+        }
+      ],
+      "required": true,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_562072",
+      "name": "change from prior",
+      "description": "Change in the finding compared to prior imaging",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_562072.0",
+          "name": "new",
+          "description": "Finding is new since prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_562072.1",
+          "name": "unchanged",
+          "description": "Finding is unchanged from prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_562072.2",
+          "name": "increased",
+          "description": "Finding has increased since prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_562072.3",
+          "name": "decreased",
+          "description": "Finding has decreased since prior study"
+        },
+        {
+          "value_code": "OIFMA_MGB_562072.4",
+          "name": "resolved",
+          "description": "Finding has resolved since prior study"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_529209",
+      "name": "laterality",
+      "description": "Side of the body where the finding is located",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_529209.0",
+          "name": "left",
+          "description": "Left side"
+        },
+        {
+          "value_code": "OIFMA_MGB_529209.1",
+          "name": "right",
+          "description": "Right side"
+        },
+        {
+          "value_code": "OIFMA_MGB_529209.2",
+          "name": "bilateral",
+          "description": "Both sides"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_368232",
+      "name": "temporality",
+      "description": "Timing or onset of the finding relative to clinical context",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_368232.0",
+          "name": "acute",
+          "description": "Recent onset, typically hours to days"
+        },
+        {
+          "value_code": "OIFMA_MGB_368232.1",
+          "name": "subacute",
+          "description": "Intermediate duration, typically days to weeks"
+        },
+        {
+          "value_code": "OIFMA_MGB_368232.2",
+          "name": "chronic",
+          "description": "Long-standing, typically weeks to months or longer"
+        },
+        {
+          "value_code": "OIFMA_MGB_368232.3",
+          "name": "indeterminate",
+          "description": "Timing cannot be determined from imaging"
+        },
+        {
+          "value_code": "OIFMA_MGB_368232.4",
+          "name": "not applicable",
+          "description": "Temporality not relevant for this finding"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_541720",
+      "name": "stability",
+      "description": "Stability status of the finding over time",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_541720.0",
+          "name": "stable",
+          "description": "Finding has remained unchanged"
+        },
+        {
+          "value_code": "OIFMA_MGB_541720.1",
+          "name": "improving",
+          "description": "Finding is getting better"
+        },
+        {
+          "value_code": "OIFMA_MGB_541720.2",
+          "name": "worsening",
+          "description": "Finding is getting worse"
+        },
+        {
+          "value_code": "OIFMA_MGB_541720.3",
+          "name": "indeterminate",
+          "description": "Stability cannot be determined"
+        },
+        {
+          "value_code": "OIFMA_MGB_541720.4",
+          "name": "not applicable",
+          "description": "No prior study for comparison"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_237296",
+      "name": "criticality",
+      "description": "Clinical urgency or importance of the finding",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_237296.0",
+          "name": "critical",
+          "description": "Requires immediate attention or action"
+        },
+        {
+          "value_code": "OIFMA_MGB_237296.1",
+          "name": "urgent",
+          "description": "Requires attention within hours"
+        },
+        {
+          "value_code": "OIFMA_MGB_237296.2",
+          "name": "routine",
+          "description": "Requires standard follow-up"
+        },
+        {
+          "value_code": "OIFMA_MGB_237296.3",
+          "name": "incidental",
+          "description": "Noted but no specific action required"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_218632",
+      "name": "actionable",
+      "description": "Whether the finding requires clinical action or follow-up",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_218632.0",
+          "name": "actionable",
+          "description": "Finding requires specific clinical action"
+        },
+        {
+          "value_code": "OIFMA_MGB_218632.1",
+          "name": "potentially actionable",
+          "description": "May require action depending on clinical context"
+        },
+        {
+          "value_code": "OIFMA_MGB_218632.2",
+          "name": "non-actionable",
+          "description": "No specific action required"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_020146",
+      "name": "characteristics",
+      "description": "Specific characteristics of bullous disease",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_020146.0",
+          "name": "diffuse"
+        },
+        {
+          "value_code": "OIFMA_MGB_020146.1",
+          "name": "other"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    },
+    {
+      "oifma_id": "OIFMA_MGB_148786",
+      "name": "location",
+      "description": "Location of bullous disease",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_MGB_148786.0",
+          "name": "upper"
+        },
+        {
+          "value_code": "OIFMA_MGB_148786.1",
+          "name": "lower"
+        }
+      ],
+      "required": false,
+      "max_selected": 1
+    }
+  ]
+}
