@@ -1,0 +1,242 @@
+{
+  "oifm_id": "OIFM_HOOD_831443",
+  "name": "lobar opacity",
+  "description": "Lobar opacity on chest radiograph.",
+  "tags": [
+    "lung",
+    "CXR"
+  ],
+  "attributes": [
+    {
+      "oifma_id": "OIFMA_HOOD_693483",
+      "name": "presence",
+      "description": "Presence or absence of lobar opacity",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_HOOD_693483.0",
+          "name": "absent",
+          "description": "Lobar opacity is absent",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID28473",
+              "display": "absent"
+            },
+            {
+              "system": "SNOMED",
+              "code": "2667000",
+              "display": "Absent (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_693483.1",
+          "name": "present",
+          "description": "Lobar opacity is present",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID28472",
+              "display": "present"
+            },
+            {
+              "system": "SNOMED",
+              "code": "52101004",
+              "display": "Present (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_693483.2",
+          "name": "indeterminate",
+          "description": "Presence of lobar opacity cannot be determined",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID39110",
+              "display": "indeterminate"
+            },
+            {
+              "system": "SNOMED",
+              "code": "82334004",
+              "display": "Indeterminate (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_693483.3",
+          "name": "unknown",
+          "description": "Presence of lobar opacity is unknown",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID5655",
+              "display": "unknown"
+            },
+            {
+              "system": "SNOMED",
+              "code": "261665006",
+              "display": "Unknown (qualifier value)"
+            }
+          ]
+        }
+      ],
+      "required": false,
+      "max_selected": 1,
+      "index_codes": [
+        {
+          "system": "SNOMED",
+          "code": "705057003",
+          "display": "Presence (property) (qualifier value)"
+        }
+      ]
+    },
+    {
+      "oifma_id": "OIFMA_HOOD_106236",
+      "name": "change from prior",
+      "description": "Whether and how a lobar opacity has changed over time",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_HOOD_106236.0",
+          "name": "unchanged",
+          "description": "Lobar opacity is unchanged",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID39268",
+              "display": "unchanged"
+            },
+            {
+              "system": "SNOMED",
+              "code": "260388006",
+              "display": "No status change (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_106236.1",
+          "name": "stable",
+          "description": "Lobar opacity is stable",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID5734",
+              "display": "stable"
+            },
+            {
+              "system": "SNOMED",
+              "code": "58158008",
+              "display": "Stable (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_106236.2",
+          "name": "new",
+          "description": "Lobar opacity is new",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID5720",
+              "display": "new"
+            },
+            {
+              "system": "SNOMED",
+              "code": "7147002",
+              "display": "New (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_106236.3",
+          "name": "resolved",
+          "description": "Lobar opacity seen on a prior exam has resolved"
+        },
+        {
+          "value_code": "OIFMA_HOOD_106236.4",
+          "name": "increased",
+          "description": "Lobar opacity has increased",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID36043",
+              "display": "increased"
+            },
+            {
+              "system": "SNOMED",
+              "code": "35105006",
+              "display": "Increased (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_106236.5",
+          "name": "decreased",
+          "description": "Lobar opacity has decreased",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID36044",
+              "display": "decreased"
+            },
+            {
+              "system": "SNOMED",
+              "code": "1250004",
+              "display": "Decreased (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_106236.6",
+          "name": "larger",
+          "description": "Lobar opacity is larger",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID5791",
+              "display": "enlarged"
+            },
+            {
+              "system": "SNOMED",
+              "code": "263768009",
+              "display": "Greater (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_106236.7",
+          "name": "smaller",
+          "description": "Lobar opacity is smaller",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID38669",
+              "display": "diminished"
+            },
+            {
+              "system": "SNOMED",
+              "code": "263796003",
+              "display": "Lesser (qualifier value)"
+            }
+          ]
+        }
+      ],
+      "required": false,
+      "max_selected": 1,
+      "index_codes": [
+        {
+          "system": "RADLEX",
+          "code": "RID49896",
+          "display": "change"
+        },
+        {
+          "system": "SNOMED",
+          "code": "263703002",
+          "display": "Changed status (qualifier value)"
+        }
+      ]
+    }
+  ]
+}

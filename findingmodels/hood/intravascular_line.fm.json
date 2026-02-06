@@ -1,0 +1,242 @@
+{
+  "oifm_id": "OIFM_HOOD_610549",
+  "name": "intravascular line",
+  "description": "Intravascular line on chest radiograph.",
+  "tags": [
+    "devices",
+    "CXR"
+  ],
+  "attributes": [
+    {
+      "oifma_id": "OIFMA_HOOD_569883",
+      "name": "presence",
+      "description": "Presence or absence of intravascular line",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_HOOD_569883.0",
+          "name": "absent",
+          "description": "Intravascular line is absent",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID28473",
+              "display": "absent"
+            },
+            {
+              "system": "SNOMED",
+              "code": "2667000",
+              "display": "Absent (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_569883.1",
+          "name": "present",
+          "description": "Intravascular line is present",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID28472",
+              "display": "present"
+            },
+            {
+              "system": "SNOMED",
+              "code": "52101004",
+              "display": "Present (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_569883.2",
+          "name": "indeterminate",
+          "description": "Presence of intravascular line cannot be determined",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID39110",
+              "display": "indeterminate"
+            },
+            {
+              "system": "SNOMED",
+              "code": "82334004",
+              "display": "Indeterminate (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_569883.3",
+          "name": "unknown",
+          "description": "Presence of intravascular line is unknown",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID5655",
+              "display": "unknown"
+            },
+            {
+              "system": "SNOMED",
+              "code": "261665006",
+              "display": "Unknown (qualifier value)"
+            }
+          ]
+        }
+      ],
+      "required": false,
+      "max_selected": 1,
+      "index_codes": [
+        {
+          "system": "SNOMED",
+          "code": "705057003",
+          "display": "Presence (property) (qualifier value)"
+        }
+      ]
+    },
+    {
+      "oifma_id": "OIFMA_HOOD_597770",
+      "name": "change from prior",
+      "description": "Whether and how a intravascular line has changed over time",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_HOOD_597770.0",
+          "name": "unchanged",
+          "description": "Intravascular line is unchanged",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID39268",
+              "display": "unchanged"
+            },
+            {
+              "system": "SNOMED",
+              "code": "260388006",
+              "display": "No status change (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_597770.1",
+          "name": "stable",
+          "description": "Intravascular line is stable",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID5734",
+              "display": "stable"
+            },
+            {
+              "system": "SNOMED",
+              "code": "58158008",
+              "display": "Stable (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_597770.2",
+          "name": "new",
+          "description": "Intravascular line is new",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID5720",
+              "display": "new"
+            },
+            {
+              "system": "SNOMED",
+              "code": "7147002",
+              "display": "New (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_597770.3",
+          "name": "resolved",
+          "description": "Intravascular line seen on a prior exam has resolved"
+        },
+        {
+          "value_code": "OIFMA_HOOD_597770.4",
+          "name": "increased",
+          "description": "Intravascular line has increased",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID36043",
+              "display": "increased"
+            },
+            {
+              "system": "SNOMED",
+              "code": "35105006",
+              "display": "Increased (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_597770.5",
+          "name": "decreased",
+          "description": "Intravascular line has decreased",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID36044",
+              "display": "decreased"
+            },
+            {
+              "system": "SNOMED",
+              "code": "1250004",
+              "display": "Decreased (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_597770.6",
+          "name": "larger",
+          "description": "Intravascular line is larger",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID5791",
+              "display": "enlarged"
+            },
+            {
+              "system": "SNOMED",
+              "code": "263768009",
+              "display": "Greater (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_597770.7",
+          "name": "smaller",
+          "description": "Intravascular line is smaller",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID38669",
+              "display": "diminished"
+            },
+            {
+              "system": "SNOMED",
+              "code": "263796003",
+              "display": "Lesser (qualifier value)"
+            }
+          ]
+        }
+      ],
+      "required": false,
+      "max_selected": 1,
+      "index_codes": [
+        {
+          "system": "RADLEX",
+          "code": "RID49896",
+          "display": "change"
+        },
+        {
+          "system": "SNOMED",
+          "code": "263703002",
+          "display": "Changed status (qualifier value)"
+        }
+      ]
+    }
+  ]
+}

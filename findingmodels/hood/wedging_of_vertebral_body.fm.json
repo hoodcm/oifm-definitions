@@ -1,0 +1,245 @@
+{
+  "oifm_id": "OIFM_HOOD_069126",
+  "name": "wedging of vertebral body",
+  "description": "Wedging of vertebral body on chest radiograph.",
+  "synonyms": [
+    "Vertebral body wedging"
+  ],
+  "tags": [
+    "osseous",
+    "CXR"
+  ],
+  "attributes": [
+    {
+      "oifma_id": "OIFMA_HOOD_854368",
+      "name": "presence",
+      "description": "Presence or absence of wedging of vertebral body",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_HOOD_854368.0",
+          "name": "absent",
+          "description": "Wedging of vertebral body is absent",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID28473",
+              "display": "absent"
+            },
+            {
+              "system": "SNOMED",
+              "code": "2667000",
+              "display": "Absent (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_854368.1",
+          "name": "present",
+          "description": "Wedging of vertebral body is present",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID28472",
+              "display": "present"
+            },
+            {
+              "system": "SNOMED",
+              "code": "52101004",
+              "display": "Present (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_854368.2",
+          "name": "indeterminate",
+          "description": "Presence of wedging of vertebral body cannot be determined",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID39110",
+              "display": "indeterminate"
+            },
+            {
+              "system": "SNOMED",
+              "code": "82334004",
+              "display": "Indeterminate (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_854368.3",
+          "name": "unknown",
+          "description": "Presence of wedging of vertebral body is unknown",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID5655",
+              "display": "unknown"
+            },
+            {
+              "system": "SNOMED",
+              "code": "261665006",
+              "display": "Unknown (qualifier value)"
+            }
+          ]
+        }
+      ],
+      "required": false,
+      "max_selected": 1,
+      "index_codes": [
+        {
+          "system": "SNOMED",
+          "code": "705057003",
+          "display": "Presence (property) (qualifier value)"
+        }
+      ]
+    },
+    {
+      "oifma_id": "OIFMA_HOOD_807780",
+      "name": "change from prior",
+      "description": "Whether and how a wedging of vertebral body has changed over time",
+      "type": "choice",
+      "values": [
+        {
+          "value_code": "OIFMA_HOOD_807780.0",
+          "name": "unchanged",
+          "description": "Wedging of vertebral body is unchanged",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID39268",
+              "display": "unchanged"
+            },
+            {
+              "system": "SNOMED",
+              "code": "260388006",
+              "display": "No status change (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_807780.1",
+          "name": "stable",
+          "description": "Wedging of vertebral body is stable",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID5734",
+              "display": "stable"
+            },
+            {
+              "system": "SNOMED",
+              "code": "58158008",
+              "display": "Stable (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_807780.2",
+          "name": "new",
+          "description": "Wedging of vertebral body is new",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID5720",
+              "display": "new"
+            },
+            {
+              "system": "SNOMED",
+              "code": "7147002",
+              "display": "New (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_807780.3",
+          "name": "resolved",
+          "description": "Wedging of vertebral body seen on a prior exam has resolved"
+        },
+        {
+          "value_code": "OIFMA_HOOD_807780.4",
+          "name": "increased",
+          "description": "Wedging of vertebral body has increased",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID36043",
+              "display": "increased"
+            },
+            {
+              "system": "SNOMED",
+              "code": "35105006",
+              "display": "Increased (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_807780.5",
+          "name": "decreased",
+          "description": "Wedging of vertebral body has decreased",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID36044",
+              "display": "decreased"
+            },
+            {
+              "system": "SNOMED",
+              "code": "1250004",
+              "display": "Decreased (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_807780.6",
+          "name": "larger",
+          "description": "Wedging of vertebral body is larger",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID5791",
+              "display": "enlarged"
+            },
+            {
+              "system": "SNOMED",
+              "code": "263768009",
+              "display": "Greater (qualifier value)"
+            }
+          ]
+        },
+        {
+          "value_code": "OIFMA_HOOD_807780.7",
+          "name": "smaller",
+          "description": "Wedging of vertebral body is smaller",
+          "index_codes": [
+            {
+              "system": "RADLEX",
+              "code": "RID38669",
+              "display": "diminished"
+            },
+            {
+              "system": "SNOMED",
+              "code": "263796003",
+              "display": "Lesser (qualifier value)"
+            }
+          ]
+        }
+      ],
+      "required": false,
+      "max_selected": 1,
+      "index_codes": [
+        {
+          "system": "RADLEX",
+          "code": "RID49896",
+          "display": "change"
+        },
+        {
+          "system": "SNOMED",
+          "code": "263703002",
+          "display": "Changed status (qualifier value)"
+        }
+      ]
+    }
+  ]
+}
